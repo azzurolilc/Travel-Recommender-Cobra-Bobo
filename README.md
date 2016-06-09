@@ -1,8 +1,6 @@
 #####a.l.: Capstone for DEI
 
-![Image of CobraBobo]
-
-(./intro/image/cobra_bobo_i.jpg)
+<img src="./intro/image/cobra_bobo_i.jpg">
 
 
 ##Schistometopum Thomense 
