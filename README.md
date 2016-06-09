@@ -1,4 +1,10 @@
 #####a.l.: Capstone for DEI
+
+![Image of CobraBobo]
+
+(./intro/image/cobra_bobo_i.jpg)
+
+
 ##Schistometopum Thomense 
 _[wikipedia - Schistometopum Thomense ](https://en.wikipedia.org/wiki/Schistometopum_thomense)_
 is a species of amphibian in the family Dermophiidae, endemic to São Tomé and Ilhéu das Rolas.It is found in most soils on São Tomé, from tropical moist lowland forests to coastal coconut plantations. It is absent only from the driest northern areas of the island. It is typically around 30 cm (12 in) in length, and is often bright yellow. This species may be referred to as the **São Tomé caecilian** (with various spellings of the island's name), as the **Aqua Ize caecilian**, or as the **island caecilian**, or by the local name of **cobra bobo**.
@@ -12,7 +18,7 @@ List all the given the query and... you guessed it... Google it! There, Google r
 #####Method 2:
 Start again with Google Map. Then search for national and state parks in the area. Choose a few that is within the desired travel parameter, then filter to get the final travel plan by searching each park individually. 
 
-#####As a non-native English speaker and a lazy reader ( argument: world is made a better place by lazy people? ), therefore I ([WhoAmI?](http://azzurolilc.github.io/)) came up with the idea to build a real-time fuzzy (and personalized) search engine for providing travel destinations suggestions!
+#####As a non-native English speaker and a lazy reader ( argument: world is made a better place by lazy people? ), therefore [I](http://azzurolilc.github.io/) came up with the idea to build a real-time fuzzy (and personalized) search engine for providing travel destinations suggestions!
 
 ###Project Features
 
