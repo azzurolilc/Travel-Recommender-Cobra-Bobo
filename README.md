@@ -52,7 +52,7 @@ User Search:
 
 ###NLP and Proximity Search
 <!-- OpenNLP, Solr?(Lucene?) query parser? -->
-word2vec
+steming - remove some capitaized words - word2vec
 
 ###Linguistic Modeling
 
