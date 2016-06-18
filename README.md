@@ -1,12 +1,14 @@
 #####a.l.: Capstone for DEI
 
+[Track Project Progress on Trello](https://trello.com/b/dA5mU1LV/travel-recommender-cobra-bobo)
+
 
 ##Schistometopum Thomense 
 
-<div id="photo-container">
+<!-- <div id="photo-container">
 	<img id="photo-display" src="./intro/image/cobra_bobo_i.jpg" 
 	alt="PlaceHolder" style="max-width:15%;">
-</div>
+</div> -->
 
 _[wikipedia - Schistometopum Thomense ](https://en.wikipedia.org/wiki/Schistometopum_thomense)_
 is a species of amphibian in the family Dermophiidae, endemic to São Tomé and Ilhéu das Rolas.It is found in most soils on São Tomé, from tropical moist lowland forests to coastal coconut plantations. It is absent only from the driest northern areas of the island. It is typically around 30 cm (12 in) in length, and is often bright yellow. This species may be referred to as the **São Tomé caecilian** (with various spellings of the island's name), as the **Aqua Ize caecilian**, or as the **island caecilian**, or by the local name of **cobra bobo**.
@@ -93,6 +95,9 @@ Search result and user log
 ###Resources
 
 #####Neural Network & NLP
+
+[DL4J:word2vec](http://deeplearning4j.org/word2vec)
+
 [UNDERSTANDING CONVOLUTIONAL NEURAL NETWORKS FOR NLP](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/)
 
 [Stanford CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/syllabus.html)
