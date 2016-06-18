@@ -11,9 +11,7 @@
 </div> -->
 
 _[wikipedia - Schistometopum Thomense ](https://en.wikipedia.org/wiki/Schistometopum_thomense)_
-is a species of amphibian in the family Dermophiidae, endemic to São Tomé and Ilhéu das Rolas.It is found in most soils on São Tomé, from tropical moist lowland forests to coastal coconut plantations. It is absent only from the driest northern areas of the island. It is typically around 30 cm (12 in) in length, and is often bright yellow. This species may be referred to as the **São Tomé caecilian** (with various spellings of the island's name), as the **Aqua Ize caecilian**, or as the **island caecilian**, or by the local name of **cobra bobo**.
-
-If you read the paragraph above, and all the long-word location all the jargons made sense to you, just so you know that I am VERY impressed! But it's not relevant to the project AT ALL, it's just a name of no meaning or what-so-ever:)
+is a species of amphibian in the family Dermophiidae, endemic to São Tomé and Ilhéu das Rolas.It is found in most soils on São Tomé, from tropical moist lowland forests to coastal coconut plantations. It is absent only from the driest northern areas of the island. It is typically around 30 cm (12 in) in length, and is often bright yellow. This species may be referred to as the **São Tomé caecilian** (with various spellings of the island's name), as the **Aqua Ize caecilian**, or as the **island caecilian**, or by the local name of **cobra bobo**. If you managed to read the paragraph above, and all the long-word location all the jargons made sense to you, just so you know that I am VERY impressed! It's not relevant to the project AT ALL. So here is the project:
 
 ###Project Inspiration
 My friend and I were planning a road trip, we have a specific, but also blurry idea that we want to go on a **roadtrip** to some **State/National Parks** between our locations **WA, OR, North CA** to spend **a few days in Sept or Oct** to enjoy nature. We are both travellers and the parks has to be where none of us has been to. How do we start planning the trip?
@@ -64,6 +62,7 @@ So why spend the time wotk on a differnt one?
 1. NLP is fun! And getting to work with text/search/ML is more so.
 2. Optimazied for Precision: Only concentrate on word meaning in the given field. Avoid word ambiguity, for a more accurate model. (for all positive, filter out false resident in non-related documents)
 3. Optimized for Recall: (for all related documents, improve retrieved rate)
+4. Because I can, with enough data from the travel sites, I have enough data to build my own model.
 
 #####List of Dictionaries - word2vec approach
 
@@ -71,17 +70,10 @@ UNK - Uncommon Words, not in dictionary
 
 #####Skip-gram Model
 
+For this project, I choose to use 7 skip-gram. 
 
 #####Dictionary 
 
-| Word          | ClusterId    | TokenId|
-| ------------- |:------------:| ------:|
-| doc	        | A000000	   | 11111  |
-| document      | 0000111      | 11111  |
-| documentary   | 2992034      | 11111  |
-| run           | A891239      | 11112  |
-| runnnnnnn     | 5324912      | 11112  |
-| runing        | 6392011      | 11112  |
 
 
 ###Evaluation
@@ -90,7 +82,15 @@ Search result and user log
 
 ###System Infrustructure
 
+Data comes from Common Crawl S3, cleaned, formated and saved to CFS.
+Spark read in data from CFS, process with MlLib word2vec and save the model to web server.
+
+User logs sink to Kafka and processed with Spark Streaming.
+Play framework servers the query result to web UI. 
+
 ###Configuration and Instruction
+
+TBD
 
 ###Resources
 
