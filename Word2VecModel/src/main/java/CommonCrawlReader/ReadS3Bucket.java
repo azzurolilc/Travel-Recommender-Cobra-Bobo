@@ -1,5 +1,6 @@
 package CommonCrawlReader;
-import com.amazonaws.services.s3.AmazonS3;
+//import com.amazonaws.services.s3.AmazonS3;
+import com.amazonaws.services.s3.*;
 /**
  * Created by azzurolilc on 6/15/16.
  *

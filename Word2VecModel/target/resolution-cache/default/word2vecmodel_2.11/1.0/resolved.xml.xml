@@ -4,7 +4,7 @@
 		module="word2vecmodel_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160615145056"
+		publication="20160619210400"
 	>
 		<description>
 		Word2VecModel
@@ -32,14 +32,28 @@
 		<artifact name="word2vecmodel_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.8" conf="compile->default(compile)"/>
 		<dependency org="com.amazonaws" name="aws-java-sdk" rev="1.11.7" conf="compile->default(compile)"/>
 		<dependency org="com.amazonaws" name="aws-java-sdk-s3" rev="1.11.7" conf="compile->default(compile)"/>
-		<dependency org="org.apache.spark" name="spark-mllib_2.11" rev="1.6.1" conf="compile->default(compile)"/>
-		<dependency org="org.apache.spark" name="spark-core_2.11" rev="1.6.1" conf="compile->default(compile)"/>
-		<dependency org="edu.stanford.nlp" name="stanford-corenlp" rev="3.6.0" conf="compile->default(compile)"/>
-		<dependency org="org.apache.lucene" name="lucene-core" rev="6.0.1" conf="compile->default(compile)"/>
-		<dependency org="org.apache.lucene" name="lucene-queryparser" rev="6.0.1" conf="compile->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="19.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-common" rev="2.7.2" conf="compile->default(compile)"/>
+		<dependency org="org.apache.hadoop" name="hadoop-client" rev="2.7.2" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.7.4" conf="compile->default(compile)"/>
+		<dependency org="com.fasterxml.jackson.module" name="jackson-module-scala_2.11" rev="2.7.4" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.0.0-preview" conf="compile->default(compile)">
+			<exclude org="com.fasterxml.jackson.core" module="jackson-databind" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.0.0-preview" conf="compile->default(compile)">
+			<exclude org="com.fasterxml.jackson.core" module="jackson-databind" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.spark" name="spark-mllib_2.11" rev="2.0.0-preview" conf="compile->default(compile)">
+			<exclude org="com.fasterxml.jackson.core" module="jackson-databind" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="org.apache.spark" name="spark-streaming_2.11" rev="2.0.0-preview" conf="compile->default(compile)">
+			<exclude org="com.fasterxml.jackson.core" module="jackson-databind" name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="com.databricks" name="spark-csv_2.11" rev="1.4.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

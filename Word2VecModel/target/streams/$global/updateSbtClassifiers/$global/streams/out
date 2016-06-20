@@ -648,9 +648,78 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-sbt#interface;0.13.8 [compile->default(compile)]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->default(compile)]
+[info] Resolving com.github.mpeltonen#sbt-idea;1.6.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.6.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.6.0
+[debug] 	found com.github.mpeltonen#sbt-idea;1.6.0 in sbt-chain
+[debug] 	[1.6.0] com.github.mpeltonen#sbt-idea;1.6.0
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->runtime]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->compile]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master(compile)]
+[info] Resolving commons-io#commons-io;2.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.0.1
+[debug] 	found commons-io#commons-io;2.0.1 in sbt-chain
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile(*)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->default(compile)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->runtime]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->compile]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [compile->master]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.mpeltonen#sbt-idea;1.6.0->commons-io#commons-io;2.0.1 [runtime->compile]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->master]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->default(compile)]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->runtime]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->compile]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->commons-io#commons-io;2.0.1 [default->master]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.8.2 [default->default(compile)]
+[info] Resolving net.virtual-void#sbt-dependency-graph;0.8.2 ...
+[debug] sbt-chain: Checking cache for: dependency: net.virtual-void#sbt-dependency-graph;0.8.2 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: net.virtual-void#sbt-dependency-graph;0.8.2
+[debug] 	found net.virtual-void#sbt-dependency-graph;0.8.2 in sbt-chain
+[debug] 	[0.8.2] net.virtual-void#sbt-dependency-graph;0.8.2
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.8.2 [default->runtime]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.8.2 [default->compile]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
+[info] Resolving com.github.mdr#ascii-graphs_2.10;0.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mdr#ascii-graphs_2.10;0.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.github.mdr#ascii-graphs_2.10;0.0.3
+[debug] 	found com.github.mdr#ascii-graphs_2.10;0.0.3 in sbt-chain
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(compile)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->runtime(*)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->default(compile)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->runtime]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->runtime(*)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.8.2->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.8.2 [default->master]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->default(compile)]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->runtime]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->compile]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->master]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->org.scala-lang#scala-library;2.10.4 [default->default(compile)]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->org.scala-lang#scala-library;2.10.4 [default->runtime]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->org.scala-lang#scala-library;2.10.4 [default->compile]
+[debug] == resolving dependencies default#word2vecmodel$sbt_2.11;1.0->org.scala-lang#scala-library;2.10.4 [default->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
+[debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar
+[debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar
+[debug] 	[NOT REQUIRED] net.virtual-void#sbt-dependency-graph;0.8.2!sbt-dependency-graph.jar
+[debug] 	[NOT REQUIRED] com.github.mdr#ascii-graphs_2.10;0.0.3!ascii-graphs_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.8!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.8!compiler-interface-bin.jar
@@ -704,9 +773,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 1532ms :: artifacts dl 34ms
-[debug] 	report for default#word2vecmodel$sbt_2.11;1.0 default produced in /Users/lil/Documents/workspace/CobraBobo/Word2VecModel/target/resolution-cache/reports/default-word2vecmodel$sbt_2.11-default.xml
-[debug] 	resolve done (1532ms resolve - 34ms download)
+[debug] :: resolution report :: resolve 745ms :: artifacts dl 40ms
+[debug] 	report for default#word2vecmodel$sbt_2.11;1.0 default produced in /Users/lil/Documents/workspace/Travel-Recommender-Cobra-Bobo/Word2VecModel/target/resolution-cache/reports/default-word2vecmodel$sbt_2.11-default.xml
+[debug] 	resolve done (745ms resolve - 40ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#word2vecmodel$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1016,6 +1085,40 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_3;0.13.8 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_3;0.13.8
 [debug] 	found org.scala-sbt#precompiled-2_9_3;0.13.8 in sbt-chain
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->default(compile)]
+[info] Resolving com.github.mpeltonen#sbt-idea;1.6.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mpeltonen#sbt-idea;1.6.0 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.github.mpeltonen#sbt-idea;1.6.0
+[debug] 	found com.github.mpeltonen#sbt-idea;1.6.0 in sbt-chain
+[debug] 	[1.6.0] com.github.mpeltonen#sbt-idea;1.6.0
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->runtime]
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->compile]
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->com.github.mpeltonen#sbt-idea;1.6.0 [default->master]
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->default(compile)]
+[info] Resolving commons-io#commons-io;2.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.0.1 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.0.1
+[debug] 	found commons-io#commons-io;2.0.1 in sbt-chain
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->runtime]
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->compile]
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->commons-io#commons-io;2.0.1 [default->master]
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.8.2 [default->default(compile)]
+[info] Resolving net.virtual-void#sbt-dependency-graph;0.8.2 ...
+[debug] sbt-chain: Checking cache for: dependency: net.virtual-void#sbt-dependency-graph;0.8.2 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: net.virtual-void#sbt-dependency-graph;0.8.2
+[debug] 	found net.virtual-void#sbt-dependency-graph;0.8.2 in sbt-chain
+[debug] 	[0.8.2] net.virtual-void#sbt-dependency-graph;0.8.2
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.8.2 [default->runtime]
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.8.2 [default->compile]
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->net.virtual-void#sbt-dependency-graph;0.8.2 [default->master]
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->default(compile)]
+[info] Resolving com.github.mdr#ascii-graphs_2.10;0.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mdr#ascii-graphs_2.10;0.0.3 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.github.mdr#ascii-graphs_2.10;0.0.3
+[debug] 	found com.github.mdr#ascii-graphs_2.10;0.0.3 in sbt-chain
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->runtime]
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->compile]
+[debug] == resolving dependencies default#word2vecmodel$sources_2.11;1.0->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar(src)
@@ -1070,6 +1173,10 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 164ms :: artifacts dl 26ms
-[debug] 	report for default#word2vecmodel$sources_2.11;1.0 default produced in /Users/lil/Documents/workspace/CobraBobo/Word2VecModel/target/resolution-cache/reports/default-word2vecmodel$sources_2.11-default.xml
-[debug] 	resolve done (164ms resolve - 26ms download)
+[debug] 	[NOT REQUIRED] com.github.mpeltonen#sbt-idea;1.6.0!sbt-idea.jar(src)
+[debug] 	[NOT REQUIRED] commons-io#commons-io;2.0.1!commons-io.jar(src)
+[debug] 	[NOT REQUIRED] net.virtual-void#sbt-dependency-graph;0.8.2!sbt-dependency-graph.jar(src)
+[debug] 	[NOT REQUIRED] com.github.mdr#ascii-graphs_2.10;0.0.3!ascii-graphs_2.10.jar(src)
+[debug] :: resolution report :: resolve 119ms :: artifacts dl 22ms
+[debug] 	report for default#word2vecmodel$sources_2.11;1.0 default produced in /Users/lil/Documents/workspace/Travel-Recommender-Cobra-Bobo/Word2VecModel/target/resolution-cache/reports/default-word2vecmodel$sources_2.11-default.xml
+[debug] 	resolve done (119ms resolve - 22ms download)

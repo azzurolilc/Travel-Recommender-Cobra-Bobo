@@ -25,8 +25,8 @@
         <module name="word2vecmodel" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="word2vecmodel" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="word2vecmodel" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

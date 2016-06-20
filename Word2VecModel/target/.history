@@ -1,0 +1,8 @@
+sbt install spark
+help
+all
+help eval
+eval
+settings
+show test:dependencyClasspath
+show test:dependency
