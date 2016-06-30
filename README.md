@@ -1,6 +1,8 @@
 #####a.l.: Capstone for DEI
 
 [Track Project Progress -> Trello](https://trello.com/b/dA5mU1LV/travel-recommender-cobra-bobo)
+
+
 [Project Presentation -> Google Slides](https://docs.google.com/presentation/d/1-F59uymNAmPcRsGmusw871SlWFFBmF2Le3mFfOiDNkA/edit?usp=sharing)
 
 ##Schistometopum Thomense 
