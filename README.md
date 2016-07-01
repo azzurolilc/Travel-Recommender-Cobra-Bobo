@@ -54,8 +54,6 @@ User Search:
 <!-- OpenNLP, Solr?(Lucene?) query parser? -->
 steming - remove some capitaized words - word2vec
 
-###Linguistic Modeling
-
 ###Why train a model for this task?
 There are options for existing models: [GloVe](http://nlp.stanford.edu/projects/glove/)
 So why spend the time wotk on a differnt one?
@@ -71,9 +69,6 @@ UNK - Uncommon Words, not in dictionary
 #####Skip-gram Model
 
 For this project, I choose to use 7 skip-gram. 
-
-#####Dictionary 
-
 
 
 ###Evaluation

@@ -4,7 +4,7 @@
 		module="word2vecmodel-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160619210344"
+		publication="20160630142027"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

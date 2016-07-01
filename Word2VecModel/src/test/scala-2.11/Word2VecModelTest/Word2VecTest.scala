@@ -1,8 +1,8 @@
-package Word2VecModelTest
+package word2vecModelTest
 
 /**
   * Created by lil on 6/18/16.
   */
-object Word2VecTest {
+object Word2vecTest {
 
 }

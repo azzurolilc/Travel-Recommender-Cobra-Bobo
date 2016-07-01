@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: net.mintern:primitive:1.0:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.mintern/primitive/jars/primitive-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/net.mintern/primitive/srcs/primitive-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
