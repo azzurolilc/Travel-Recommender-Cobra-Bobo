@@ -46,4 +46,8 @@ object HelloController extends Controller {
   def filter(text:String) = Action {
     Ok(toJsonString(rdd.filter(rdd("text").contains(text))))
   }
+
+  def search(text:String) = Action {
+    Ok(toJsonString(rdd.filter(rdd("text").contains(text))))
+  }
 }

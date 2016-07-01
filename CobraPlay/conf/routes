@@ -6,6 +6,7 @@ GET        /                    demo.HelloController.index
 GET        /count               demo.HelloController.count
 GET        /list                demo.HelloController.list
 GET        /filter/:text        demo.HelloController.filter(text)
+#GET        /search              demo.HelloController.search(array)
 
 # Home page
 

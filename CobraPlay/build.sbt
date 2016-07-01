@@ -2,7 +2,7 @@ import play.sbt.PlayImport._
 import play.sbt.routes.RoutesKeys._
 
 
-name         := """spark-play"""
+name         := """cobra-play"""
 organization := "ch.alexmass"
 version      := "0.0.1"
 scalaVersion := Version.scala
